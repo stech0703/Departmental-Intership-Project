@@ -1,0 +1,6 @@
+Time Taken in Reading the File: 0.5807 SEC
+Time Taken in Encryptiion: 0.0061 SEC
+Time Taken in Dividing file into Blocks: 0.0158 SEC
+Time Taken in Hashing the Blocks: 0.0052 SEC
+
+Total Time Taken :4.7555 SEC
