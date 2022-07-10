@@ -1,1 +1,1 @@
-# Title: Data auditing and user revocation in cloud systems using blockchain
+# Title: Data auditing in cloud systems using blockchain
