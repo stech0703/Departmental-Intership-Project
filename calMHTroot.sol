@@ -26,16 +26,15 @@ contract MHT
     
     function MHTroot() public
     {
-        uint x = 3; // x = log2(size of hash array)
+        //uint x = 3; // x = log2(size of hash array)
         uint size = 8; //  size = size of hash array 
-        for(uint i=0;i<x;i++)
+        for(uint i=size;i>0;i=i/2)
         {
             uint j=0;
             size=size/2;
             while(j<size)
             {
-//              hash[j]=hash[2*j]+hash[2*j+1];
-                hash[j]=hash[2*j]+hash[2*j+1];  
+                hash[j]=(hash[2*j]+hash[2*j+1])%479;  
                 j++;
             }
         }
